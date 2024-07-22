@@ -1,3 +1,3 @@
-import App from './App'
+import WoodDeck from './WoodDeck'
 
-export { App }
+export { WoodDeck }
