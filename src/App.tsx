@@ -7,18 +7,18 @@ import './App.css'
 function App() {
   const [Component, setComponent] = useState<React.FC | null>(null)
 
-  useEffect(() => {
-    const getComponent = async () => {
-      const { App } = await import(
-        'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck.js'
-      )
-      setComponent(() => App)
-    }
+  // useEffect(() => {
+  //   const getComponent = async () => {
+  //     const { App } = await import(
+  //       'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck.js'
+  //     )
+  //     setComponent(() => App)
+  //   }
 
-    getComponent()
-  }, [])
+  //   getComponent()
+  // }, [])
 
-  return Component ? <Component /> : null
+  return <window.WoodDeck.WoodDeck />
 }
 
 export default App
