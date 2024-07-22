@@ -9,9 +9,10 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'WoodDeck',
-      fileName: `wood-deck`,
+      fileName: `wood-deck@1.0.0`,
       formats: ['es'],
     },
+
     rollupOptions: {
       external: ['react', 'react-dom'],
       output: {
