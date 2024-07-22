@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'WoodDeck',
-      fileName: `wood-deck@1.0.0`,
+      fileName: `wood-deck@1.0.1`,
       formats: ['es'],
     },
 
