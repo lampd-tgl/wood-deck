@@ -4,7 +4,8 @@
 //   : __vite__cjsImport0_react
 // const useState = __vite__cjsImport0_react['useState']
 
-import require$$0 from 'react'
+// import require$$0 from 'react'
+import require$$0 from 'https://esm.sh/react@18.3.1'
 const useState = require$$0['useState']
 
 function getDefaultExportFromCjs(x) {
