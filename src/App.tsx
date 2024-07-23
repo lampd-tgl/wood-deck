@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useState } from 'react'
 import './App.css'
-// import * as module from '../dist/wood-deck@1.0.2.js'
+import * as module from '../dist/wood-deck@1.0.4.js'
 
 function App() {
   const [Component, setComponent] = useState<React.FC | null>(null)
@@ -21,8 +21,8 @@ function App() {
     console.log(window, 'window')
   }, [])
 
-  // return module ? <module.WoodDeck /> : null
-  return <></>
+  return module ? <module.WoodDeck /> : null
+  // return <></>
 }
 
 export default App
