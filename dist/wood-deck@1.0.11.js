@@ -1,4 +1,6 @@
 import React from 'https://esm.sh/react@18.3.1'
+var require$$0 = React
+
 function getDefaultExportFromCjs(x) {
   return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default')
     ? x['default']
