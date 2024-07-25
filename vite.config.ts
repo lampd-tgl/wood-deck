@@ -11,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'WoodDeck',
-      fileName: `wood-deck@1.0.9`,
+      fileName: `wood-deck@1.0.10`,
       // formats: ['es'],
     },
 
@@ -22,12 +22,13 @@ export default defineConfig({
           react: 'React',
           'react-dom': 'ReactDOM',
         },
+        exports: 'named',
       },
     },
   },
   resolve: {
     alias: {
-      react: path.resolve('./node_modules/react'),
+      react: path.resolve(__dirname, './node_modules/react'),
     },
   },
 })

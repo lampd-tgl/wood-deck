@@ -1,10 +1,13 @@
-import { useState } from 'react'
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-ignore
+// import { useState } from 'react'
+import React from 'https://esm.sh/react@18.3.1'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function WoodDeck() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = React.useState<number>(0)
 
   return (
     <>
@@ -18,7 +21,7 @@ function WoodDeck() {
       </div>
       <h1>Vite + React</h1>
       <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count: number) => count + 1)}>
           count is {count}
         </button>
         <p>
