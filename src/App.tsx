@@ -4,7 +4,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 // import * as module from '../dist/wood-deck@1.0.4.js'
-import * as module from 'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.6.js'
+import * as module from 'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.8.js'
 
 function App() {
   const [Component, setComponent] = useState<React.FC | null>(null)
