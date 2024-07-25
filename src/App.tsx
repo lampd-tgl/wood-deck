@@ -18,8 +18,8 @@ function App() {
     //   setComponent(() => module.WoodDeck)
     // }
     // getComponent()
-    // console.log(module, 'module')
-    console.log(window, 'window')
+    console.log(module, 'module')
+    // console.log(window, 'window')
   }, [])
 
   return module ? <module.WoodDeck /> : null
