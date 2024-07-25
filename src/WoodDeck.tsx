@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-ignore
 // import { useState } from 'react'
-import React from 'https://esm.sh/react@18.3.1'
+import React, { useState } from 'https://esm.sh/react@18.3.1'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function WoodDeck() {
-  const [count, setCount] = React.useState<number>(0)
+  const [count, setCount] = useState<number>(0)
 
   return (
     <>
