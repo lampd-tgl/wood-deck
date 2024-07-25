@@ -13,12 +13,20 @@
       }
     </script>
     <!-- <script
+      src="https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.15.js"
       type="module"
-      src="https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.3.js"
     ></script> -->
   </head>
   <body>
     <div id="root"></div>
+
+    <script type="module">
+      import { WoodDeck } from 'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.15.js'
+
+      // console.log(WoodDeck, 'WoodDeck')
+
+      export { WoodDeck }
+    </script>
 
     <script type="module" src="/src/main.tsx"></script>
   </body>

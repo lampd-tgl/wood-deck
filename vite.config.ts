@@ -11,8 +11,8 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'WoodDeck',
-      fileName: `wood-deck@1.0.15`,
-      // formats: ['es'],
+      fileName: `wood-deck@1.0.16`,
+      formats: ['es'],
     },
 
     rollupOptions: {
