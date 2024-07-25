@@ -13,7 +13,7 @@ function App() {
     const getComponent = async () => {
       // Import module dynamically
       const module = await import(
-        'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.12.js'
+        'https://cdn.jsdelivr.net/gh/lampd-tgl/wood-deck@main/dist/wood-deck@1.0.13.js'
       )
       setComponent(() => module.WoodDeck)
     }
