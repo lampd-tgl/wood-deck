@@ -11,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.js',
       name: 'WoodDeck',
-      fileName: `wood-deck@1.0.16`,
+      fileName: `wood-deck@1.0.17`,
       formats: ['es'],
     },
 
